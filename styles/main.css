@@ -298,7 +298,7 @@ header .nav-grouping-right .nav-item {
 
 @media screen and (max-width: 650px) {
     .index-text {
-        font-size: 47px;
+        font-size: 20px;
         margin-top: 5vh
     }
 }
