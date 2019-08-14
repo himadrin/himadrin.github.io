@@ -7,13 +7,36 @@
   <title>HIMADRI NARASIMHAMURTHY</title>
   <meta name="description" content="a personal website and perhaps more">
   <meta name="author" content="HIMADRI NARASIMHAMURTHY">
+  <style>
+  	@font-face {
+      font-family: 'National';
+      src: url("fonts/National2NarrowWeb-Bold.eot") format('embedded-opentype'), /* IE6-IE8 */
+           url("fonts/National2NarrowWeb-Bold.woff2") format('woff2'), /* Super Modern Browsers */
+           url("fonts/National2NarrowWeb-Bold.woff") format('woff'); /* Pretty Modern Browsers */
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Founders';
+      src: url("fonts/Grotesque Medium.ttf") format('embedded-opentype'), /* IE6-IE8 */
+      font-display: swap;
+    }
+  </style>
+    <link rel="preload" href="fonts/National2NarrowWeb-Bold.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="fonts/Grotesque Medium.ttf" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="styles/main.css">
 
 </head>
 
 <body>
-	<h1>Himadri Narasimhamurthy</h1>
-	<p>Hello world! This is Himadri.</p>
+	<div class="index-content">
+  <h1 class="index-text">
+    <img src="https://twp.io/images/wow.svg" class="face index-wow">
+    <img src="https://twp.io/images/meh-rotated.svg" class="face index-meh">
+    <img src="https://twp.io/images/smile.svg" class="face index-smile">
+    Hey! I'm <strong>Himadri Narasimhamurthy</strong>, yet another <strong>Computer Science Student</strong> in Hanover, NH
+  </h1>
+</div>
 </body>
 </html>
