@@ -280,7 +280,7 @@ header .nav-grouping-right .nav-item {
     color: transparent;
     text-stroke: 0.015em #272727;
     -webkit-text-stroke: 0.015em #272727;
-    font-size: 72px;
+    font-size: 85px;
     line-height: 1;
     letter-spacing: -0.01em;
     position: relative
@@ -292,13 +292,13 @@ header .nav-grouping-right .nav-item {
 
 @media screen and (max-width: 1000px) {
     .index-text {
-        font-size: 72px
+        font-size: 85px
     }
 }
 
 @media screen and (max-width: 650px) {
     .index-text {
-        font-size: 20px;
+        font-size: 32px;
         margin-top: 5vh
     }
 }
