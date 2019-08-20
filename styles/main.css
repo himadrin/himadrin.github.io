@@ -280,6 +280,11 @@ header .nav-grouping-right .nav-item {
     grid-column: content-start / content-end
 }
 
+.index-img {
+    height: 100px;
+    background-image: url('static/hn1.jpg');
+}
+
 .index-text {
     font-family: "National", impact, sans-serif;
     color: transparent;
