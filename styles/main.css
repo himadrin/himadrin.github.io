@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box
+    height: 25px;
+    width: 25px;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
@@ -137,26 +139,17 @@ p.outdent {
     text-indent: -1.15em
 }
 
-im {
-    height: 20px;
-    width: 20px;
-    display: block; 
-}
-
 a {
     color: #efefef;
     text-decoration: none;
-    border-bottom: 0.07em solid
 }
 
 a:hover {
     color: silver;
-    border-bottom: 0.07em solid silver
 }
 
 a:active {
     color: #00f0e3;
-    border-bottom: 0.07em solid #00f0e3
 }
 
 ul {
