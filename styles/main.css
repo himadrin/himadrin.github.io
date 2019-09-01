@@ -44,7 +44,7 @@ li > ul, li > ol {
     margin-bottom: 0
 }
 
-.face {
+.star {
     position: absolute;
     z-index: -1
 }
@@ -239,38 +239,38 @@ header .nav-grouping-right .nav-item {
     }
 }
 
-.index-wow {
+.star-one {
     left: 11%;
     top: -4rem;
     transform: rotate(32deg)
 }
 
 @media screen and (max-width: 650px) {
-    .index-wow {
+    .star-one {
         top: -4.5rem
     }
 }
 
-.index-meh {
+.star-two {
     right: 0rem;
     top: 12rem
 }
 
 @media screen and (max-width: 1000px) {
-    .index-meh {
+    .star-two {
         top: 4rem;
         right: -2rem
     }
 }
 
 @media screen and (max-width: 650px) {
-    .index-meh {
+    .star-two {
         right: -2.2rem;
         top: -2rem
     }
 }
 
-.index-smile {
+.star-three {
     left: 45%;
     bottom: -4.5rem;
     transform: rotate(23deg)
