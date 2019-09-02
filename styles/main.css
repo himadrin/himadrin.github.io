@@ -241,7 +241,7 @@ header .nav-grouping-right .nav-item {
 
 .star-one {
     height: 60px;
-    width: 60px: 
+    width: 60px; 
     left: 35%;
     top: -4rem;
     transform: rotate(32deg)
@@ -250,7 +250,7 @@ header .nav-grouping-right .nav-item {
 @media screen and (max-width: 650px) {
     .star-one {
         height: 60px;
-        width: 60px: 
+        width: 60px; 
         left: 35%;
         top: -4.5rem;
         transform: rotate(32deg)
