@@ -47,7 +47,6 @@ li > ul, li > ol {
 .star {
     position: absolute;
     z-index: -1;
-    background-image: 30px 30px;
 }
 
 .error-smile {
@@ -241,7 +240,9 @@ header .nav-grouping-right .nav-item {
 }
 
 .star-one {
-    left: 11%;
+    height: 60px;
+    width: 60px: 
+    left: 35%;
     top: -4rem;
     transform: rotate(32deg)
 }
@@ -253,6 +254,8 @@ header .nav-grouping-right .nav-item {
 }
 
 .star-two {
+    height: 75px;
+    width: 75px;
     right: 0rem;
     top: 12rem
 }
@@ -272,9 +275,27 @@ header .nav-grouping-right .nav-item {
 }
 
 .star-three {
+    height: 50px;
+    width: 50px;
     left: 45%;
     bottom: -4.5rem;
     transform: rotate(23deg)
+}
+
+.star-four {
+    height: 35px;
+    width: 35px;
+    left: 10%;
+    bottom: -3rem;
+    transform: rotate(40deg)
+}
+
+.star-five {
+    height: 69px;
+    width: 69px;
+    left: 65%;
+    top: -12rem;
+    transform: rotate(83deg)
 }
 
 .index-content {
