@@ -249,7 +249,11 @@ header .nav-grouping-right .nav-item {
 
 @media screen and (max-width: 650px) {
     .star-one {
-        top: -4.5rem
+        height: 60px;
+        width: 60px: 
+        left: 35%;
+        top: -4.5rem;
+        transform: rotate(32deg)
     }
 }
 
@@ -263,14 +267,18 @@ header .nav-grouping-right .nav-item {
 @media screen and (max-width: 1000px) {
     .star-two {
         top: 4rem;
-        right: -2rem
+        right: -2rem;
+        height: 75px;
+        width: 75px;
     }
 }
 
 @media screen and (max-width: 650px) {
     .star-two {
         right: -2.2rem;
-        top: -2rem
+        top: -2rem;
+        height: 75px;
+        width: 75px;
     }
 }
 
@@ -279,7 +287,7 @@ header .nav-grouping-right .nav-item {
     width: 50px;
     left: 45%;
     bottom: -4.5rem;
-    transform: rotate(23deg)
+    transform: rotate(23deg);
 }
 
 .star-four {
@@ -287,7 +295,7 @@ header .nav-grouping-right .nav-item {
     width: 35px;
     left: 10%;
     bottom: -3rem;
-    transform: rotate(40deg)
+    transform: rotate(40deg);
 }
 
 .star-five {
@@ -295,7 +303,7 @@ header .nav-grouping-right .nav-item {
     width: 69px;
     left: 65%;
     top: -12rem;
-    transform: rotate(83deg)
+    transform: rotate(83deg);
 }
 
 .index-content {
