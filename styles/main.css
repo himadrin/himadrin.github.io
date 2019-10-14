@@ -322,7 +322,8 @@ header .nav-grouping-right .nav-item {
     font-size: 85px;
     line-height: 1;
     letter-spacing: -0.01em;
-    position: relative
+    position: relative;
+    margin-top: 5%;
 }
 
 .index-text strong {

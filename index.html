@@ -54,7 +54,7 @@
 	<div class="index-content">
 
     <h1 class="index-text">
-    <img src='static/hn5.jpg' alt='Himadri' style="height:400px;margin-right:24px; margin-left:24px; float:left;">
+    <img src='static/hn5.jpg' alt='Himadri' style="height:400px;margin-right:24px; margin-left:24px; float:left; position: absolute; top: 50%; transform: translate(-50%, -50%);">
       <img src="static/star.svg" class="star star-one">
       <img src="static/star.svg" class="star star-two">
       <img src="static/star.svg" class="star star-three">
@@ -94,7 +94,7 @@ function Type() {
 	if(text === _CONTENT[_PART]) {
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
-			_INTERVAL_VAL = setInterval(Delete, 100);
+			_INTERVAL_VAL = setInterval(Delete, 50);
 		}, 1000);
 	}
 }
