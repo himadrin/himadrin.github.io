@@ -24,6 +24,38 @@ body {
     font-family: "Founders", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
+.sidenav {
+  width: 800px;
+  height: 800px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  left: 10px;
+  background: url("static/star.svg");
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "National", sans-serif;
+  color: #efefef;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #fded97;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 .icon {
     background: url('static/github-sign.png');
     height: 20px;
@@ -305,8 +337,17 @@ header .nav-grouping-right .nav-item {
     transform: rotate(83deg);
 }
 
+.star-six {
+    height: 100px;
+    width: 100px;
+    bottom: -10rem;
+    left: 5%;
+    transform: rotate(20deg);
+}
+
 .index-content {
-    grid-column: content-start / content-end
+    grid-column: content-start / content-end;
+    margin-left: 165px;
 }
 
 .proj-content {
