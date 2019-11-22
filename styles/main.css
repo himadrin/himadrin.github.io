@@ -31,9 +31,8 @@ body {
   z-index: 1;
   top: 80px;
   left: 10px;
-  background: url("static/star.svg");
   overflow-x: hidden;
-  padding: 8px 0;
+  padding: 12px 0;
 }
 
 .sidenav a {
@@ -45,7 +44,16 @@ body {
   display: block;
 }
 
-.sidenav a:hover {
+.sidenav b {
+  text-decoration: none;
+    font-size: 16px;
+    font-family: "National", sans-serif;
+    color: #efefef;
+    display: block;
+    padding-left: 20px;
+}
+
+.sidenav b:hover {
   color: #fded97;
 }
 
@@ -345,9 +353,20 @@ header .nav-grouping-right .nav-item {
     transform: rotate(20deg);
 }
 
+.full{
+    background: url("static/star.svg") repeat-y top left;
+}
+
 .index-content {
     grid-column: content-start / content-end;
-    margin-left: 165px;
+    margin-left: 180px;
+    height: 100vh;
+}
+
+.abt-content {
+    grid-column: content-start / content-end;
+    margin-left: 180px;
+    height: 100vh;
 }
 
 .proj-content {
