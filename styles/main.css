@@ -446,8 +446,8 @@ header .nav-grouping-right .nav-item {
 
 .img-content{
     grid-column: content-start / content-end;
+    grid-row: content-start / content-end;
     position: relative;
-    height: 100vh;
     margin-bottom: 50px;
 }
 
