@@ -128,7 +128,6 @@ li > ul, li > ol {
 .large-text {
     font-family: "National", impact, sans-serif;
     color: transparent;
-    text-stroke: 0.015em #272727;
     -webkit-text-stroke: 0.015em #272727;
     font-size: 120px;
     line-height: 1;
@@ -469,7 +468,6 @@ header .nav-grouping-right .nav-item {
 .index-text {
     font-family: "National", impact, sans-serif;
     color: transparent;
-    text-stroke: 0.015em #efefef;
     -webkit-text-stroke: 0.015em #efefef;
     font-size: 85px;
     line-height: 1;
