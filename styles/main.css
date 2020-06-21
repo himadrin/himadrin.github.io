@@ -443,6 +443,17 @@ header .nav-grouping-right .nav-item {
     height: 100vh;
 }
 
+.row {
+    display: flex;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 1px;
+  }
+
 .img-content{
     grid-column: content-start / content-end;
     grid-row: content-start / content-end;
@@ -556,4 +567,21 @@ header .nav-grouping-right .nav-item {
           
           .item-12 { 
             background-image: url('../static/pt13.png');  }
-          
+
+            .item-13 { 
+                background-image: url('../static/duet_1.png');  }
+              
+              .item-14 { 
+                background-image: url('../static/duet_2.png');  }
+              
+              .item-15 { 
+                background-image: url('../static/duet_16.png');  }
+                
+                .item-16 { 
+                    background-image: url('../static/duet_20.png');  }
+                  
+                  .item-17 { 
+                    background-image: url('../static/duet_21.png');  }
+
+                    .item-18 { 
+                        background-image: url('../static/duet_22.png');  }
